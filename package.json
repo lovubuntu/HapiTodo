@@ -1,0 +1,26 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Todo Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prabu",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^3.0.0",
+    "good": "^6.4.0",
+    "good-console": "^5.2.0",
+    "good-file": "^5.1.1",
+    "handlebars": "^4.0.5",
+    "hapi": "^11.1.2",
+    "inert": "^3.2.0",
+    "jade": "^1.11.0",
+    "joi": "^7.0.1",
+    "kerberos": "0.0.17",
+    "mongoose": "^4.3.1",
+    "mongoose-auto-increment": "^5.0.1",
+    "vision": "^4.0.1"
+  }
+}
