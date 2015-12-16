@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
-
-mongoose.connect('mongodb://localhost:27017/todo');
+var connectionString = process.env.MONGOLAB_URI || 'mongodb://localhost:27017/todo';
+mongoose.connect(connectionString);
 var db = mongoose.connection;
 
 db.on('open', function(){
